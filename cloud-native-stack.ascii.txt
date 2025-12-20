@@ -1,0 +1,32 @@
+```ascii
+                 +--------------------------------+
+                 |       Application Code         |  <-- The Recipe
+                 | (Your Business Logic, e.g.,     |      (e.g., app.py, main.go)
+                 |  payment_processing.py)        |
+                 +--------------------------------+
+                                ▲
+                                | Runs On
+                                ▼
++--------------------------------+--------------------------------+
+|       Application Runtime      |      Application Services      |
+|  (e.g., Python Interpreter,    |      (e.g., Logging, Metrics,  |
+|   JVM, Node.js)                |       Service Discovery)       |
++--------------------------------+--------------------------------+
+                 ▲              ▲
+                 | Executes     | Consumes
+                 ▼              ▼
++--------------------------------+--------------------------------+
+|    Scheduling & Orchestration  |         Data Services          |
+|  (The "Brain", e.g.,           | (The "Memory", e.g., Database, |
+|   Kubernetes, Nomad)           |  Message Queue, Cache)         |
++--------------------------------+--------------------------------+
+                                ▲
+                                | Manages & Deploys On
+                                ▼
+                 +--------------------------------+
+                 |      Cloud Infrastructure      |  <-- The Foundation
+                 | (Compute, Storage, Networking) |      (e.g., AWS, GCP, Azure)
+                 | e.g., EC2, S3, VPC             |
+                 +--------------------------------+
+
+```
