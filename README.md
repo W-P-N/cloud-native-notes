@@ -10,3 +10,5 @@ This page is the collection of AI-generated notes to build the intuitive underst
 - [Cloud Native Stack ASCII](./cloud-native-stack.ascii.txt)
 - [Devops Tools Study Plan](./devops-tools-study-plan.md)
 - [Test Driven Development](./test-driven-development.md)
+- [Kubernetes Pod](./kubernetes-pod.md)
+- [Kubernetes Workloads](./kubernetes-workloads.md)
