@@ -15,4 +15,5 @@ This page is the collection of AI-generated notes to build the intuitive underst
 - [Kubernetes Objects: The Restaurant Kitchen of the Cloud](./kubernetes-objects-overview.md)
 - [Kubernetes Workloads Explained: Recipes for Your Applications](./kubernetes-workloads-explained.md)
 - [Kubernetes Networking Explained: Services & Ingress](./kubernetes-networking-explained.md)
+- [Kubernetes Anti-Patterns](./kubernetes-anti-patterns.md)
 
