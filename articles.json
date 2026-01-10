@@ -1,0 +1,62 @@
+[
+  {
+    "title": "App Modenization Patters",
+    "link": "./app-modernization-patterns.md"
+  },
+  {
+    "title": "Cloud Deployment Models",
+    "link": "./cloud-deployment-models.md"
+  },
+  {
+    "title": "Cloud Native Stack",
+    "link": "./cloud-native-stack.md"
+  },
+  {
+    "title": "CNCF Overview",
+    "link": "./cncf-overview.md"
+  },
+  {
+    "title": "Modern Dev Practices",
+    "link": "./modern-dev-practices.md"
+  },
+  {
+    "title": "Monolithic Vs Cloud Native",
+    "link": "./monolithic-vs-cloud-native.md"
+  },
+  {
+    "title": "Cloud Native Stack ASCII",
+    "link": "./cloud-native-stack.ascii.txt"
+  },
+  {
+    "title": "Devops Tools Study Plan",
+    "link": "./devops-tools-study-plan.md"
+  },
+  {
+    "title": "Test Driven Development",
+    "link": "./test-driven-development.md"
+  },
+  {
+    "title": "Kubernetes Pod",
+    "link": "./kubernetes-pod.md"
+  },
+  {
+    "title": "Kubernetes Workloads",
+    "link": "./kubernetes-workloads.md"
+  },
+  {
+    "title": "Kubernetes Objects: The Restaurant Kitchen of the Cloud",
+    "link": "./kubernetes-objects-overview.md"
+  },
+  {
+    "title": "Kubernetes Workloads Explained: Recipes for Your Applications",
+    "link": "./kubernetes-workloads-explained.md"
+  },
+  {
+    "title": "Kubernetes Networking Explained: Services & Ingress",
+    "link": "./kubernetes-networking-explained.md"
+  },
+  {
+    "title": "Kubernetes Anti-Patterns",
+    "link": "./kubernetes-anti-patterns.md"
+  }
+]

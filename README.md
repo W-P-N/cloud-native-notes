@@ -1,6 +1,7 @@
 # Cloud Native Notes
---
+
 This page is the collection of AI-generated notes to build the intuitive understanding of the concepts of cloud native.
+
 - [App Modenization Patters](./app-modernization-patterns.md)
 - [Cloud Deployment Models](./cloud-deployment-models.md)
 - [Cloud Native Stack](./cloud-native-stack.md)
@@ -16,4 +17,3 @@ This page is the collection of AI-generated notes to build the intuitive underst
 - [Kubernetes Workloads Explained: Recipes for Your Applications](./kubernetes-workloads-explained.md)
 - [Kubernetes Networking Explained: Services & Ingress](./kubernetes-networking-explained.md)
 - [Kubernetes Anti-Patterns](./kubernetes-anti-patterns.md)
-

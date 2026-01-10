@@ -1,34 +1,18 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     const navMenu = document.getElementById('nav-menu');
     const content = document.getElementById('content');
     let activeLink = null;
 
-    const files = [
-        "app-modernization-patterns.md",
-        "cloud-deployment-models.md",
-        "cloud-native-stack.md",
-        "cncf-overview.md",
-        "devops-tools-study-plan.md",
-        "kubernetes-networking-explained.md",
-        "kubernetes-objects-overview.md",
-        "kubernetes-pod.md",
-        "kubernetes-services.md",
-        "kubernetes-workloads-explained.md",
-        "kubernetes-workloads.md",
-        "modern-dev-practices.md",
-        "monolithic-vs-cloud-native.md",
-        "README.md",
-        "test-driven-development.md"
-    ];
+    const files = await fetch('./articles.json').then((resp) => resp.json());
 
     const ul = document.createElement('ul');
     files.sort().forEach(file => {
-        if (file.endsWith('.md')) {
+        if (file.link.endsWith('.md')) {
             const li = document.createElement('li');
             const a = document.createElement('a');
-            a.href = file;
+            a.href = file.link;
             // Prettify the name
-            a.textContent = file
+            a.textContent = file.title
                 .replace('.md', '')
                 .replace(/-/g, ' ')
                 .replace(/\b\w/g, l => l.toUpperCase());
